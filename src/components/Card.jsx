@@ -7,7 +7,6 @@ transform hover:scale-[1.05] duration-300 ease-in-out shadow-custom-white`;
 const Card = ({ title, onClickCard, image, altText }) => {
   return (
     <div onClick={onClickCard} className={classApplied}>
-      {/* <img src={image} alt={altText} width={80} height={80} /> */}
       <h3 className="text-[25px]">{title}</h3>
     </div>
   );
